@@ -32,3 +32,31 @@ button span {
 button .callout {
     ...
 }
+
+
+/* Bad */
+
+#container header nav {
+    ...
+}
+
+
+/* Good */
+
+.primary-nav {
+    ...
+}
+
+
+/* Bad */
+
+article.feat-post {
+    ...
+}
+
+
+/* Good */
+
+.feat-post {
+    ...
+}
