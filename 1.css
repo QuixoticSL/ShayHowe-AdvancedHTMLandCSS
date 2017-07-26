@@ -1,0 +1,34 @@
+/* Bad */
+
+header nav ul li a {
+    ...
+}
+
+
+/* Good */
+
+.primary-link {
+    ...
+}
+
+
+/* Bad */
+
+button strong span {
+    ...
+}
+
+button strong span .callout {
+    ...
+}
+
+
+/* Good */
+
+button span {
+    ...
+}
+
+button .callout {
+    ...
+}
