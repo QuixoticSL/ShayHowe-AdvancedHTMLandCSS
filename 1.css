@@ -60,3 +60,79 @@ article.feat-post {
 .feat-post {
     ...
 }
+
+
+/*Creating spriting images*/
+
+
+/*
+HTML:
+<ul>
+  <li><a href="#"><span class="bold">Bold Text</span></a></li>
+  <li><a href="#"><span class="italic">Italicize Text</span></a></li>
+  <li><a href="#"><span class="underline">Underline Text</span></a></li>
+  <li><a href="#"><span class="size">Size Text</span></a></li>
+  <li><a href="#"><span class="bullet">Bullet Text</span></a></li>
+  <li><a href="#"><span class="number">Number Text</span></a></li>
+  <li><a href="#"><span class="quote">Quote Text</span></a></li>
+  <li><a href="#"><span class="left">Left Align Text</span></a></li>
+  <li><a href="#"><span class="center">Center Align Text</span></a></li>
+  <li><a href="#"><span class="right">Right Align Text</span></a></li>
+</ul>
+
+CSS:
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  float: left;
+  list-style: none;
+  margin: 2px;
+}
+li a {
+  background: linear-gradient(#fff, #eee);
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  display: block;
+  padding: 3px;
+}
+li a:hover {
+  border-color: #999;
+}
+li span {
+  background: url("sprite.png") 0 0 no-repeat;
+  color: transparent;
+  display: block;
+  font: 0/0 a;
+  height: 16px;
+  width: 16px;
+}
+.italic {
+  background-position: -16px 0;
+}
+.underline {
+  background-position: -32px 0;
+}
+.size {
+  background-position: -48px 0;
+}
+.bullet {
+  background-position: -64px 0;
+}
+.number {
+  background-position: -80px 0;
+}
+.quote {
+  background-position: -96px 0;
+}
+.left {
+  background-position: -112px 0;
+}
+.center {
+  background-position: -128px 0;
+}
+.right {
+  background-position: -144px 0;
+}
+*/
