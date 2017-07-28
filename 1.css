@@ -135,4 +135,10 @@ li span {
 .right {
   background-position: -144px 0;
 }
+
+CSS overflow and clearfix for dealing with issues when it comes to floats
 */
+
+.box-set {
+    overflow: auto;
+}
