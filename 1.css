@@ -295,4 +295,14 @@ body {
 
 /* Must have for device viewports to look good */
 
-<meta name="viewport" content="width=device-width">
+
+/*<meta name="viewport" content="width=device-width">*/
+
+
+/* This value should mostly be set to 1 */
+
+
+/*<meta name="viewport" content="initial-scale=2">*/
+
+
+/* <meta name="viewport" content="minimum-scale=0"> */
