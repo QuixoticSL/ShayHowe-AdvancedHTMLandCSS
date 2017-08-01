@@ -272,3 +272,27 @@ a:hover {
         width: auto;
     }
 }
+
+
+/* Default styles first then media queries */
+
+
+/* Default media */
+
+body {
+    background: #ddd;
+}
+
+
+/* Media for larger devices */
+
+@media screen and (min-width: 800px) {
+    body {
+        background-image: url("bg.png") 50% 50% no-repeat;
+    }
+}
+
+
+/* Must have for device viewports to look good */
+
+<meta name="viewport" content="width=device-width">
