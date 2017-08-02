@@ -61,3 +61,20 @@ a {
  a:hover {
   color: #ff7b29;
 }
+
+
+//Defining variables for re-use
+//Variables can be a number, string, color, boolean, null, 
+//or a list of values separated by spaces or commas.
+
+//SASS
+$font-base: 1em
+$serif: "Helvetica Neue", Arial, "Lucida Grande", sans-serif
+
+p
+  font: $font-base $serif
+
+//Same code but in CSS
+p {
+  font: 1em "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+}
