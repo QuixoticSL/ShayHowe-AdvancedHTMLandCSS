@@ -1,0 +1,49 @@
+/* Installing Sass: */
+
+
+/* gem install sass */
+
+
+/* Converting SCSS or SASS files to CSS: */
+
+
+/* sass styles.scss styles.css */
+
+
+/*SCSS*/
+
+.new {
+    color: #ff7b29;
+    font-weight: bold;
+    span {
+        text-transform: uppercase;
+    }
+}
+
+
+/*SASS*/
+
+.new
+  color: #ff7b29
+  font-weight: bold
+  span
+    text-transform: uppercase
+
+/* Nesting with SASS */
+/*SASS*/
+.portfolio
+  border: 1px solid #9799a7
+  ul
+    list-style: none
+  li
+    float: left
+/* Same code but in CSS */
+.portfolio {
+  border: 1px solid #9799a7;
+}
+.portfolio ul {
+  list-style: none;
+}
+.portfolio li {
+  float: left;
+}
