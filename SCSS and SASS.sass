@@ -78,3 +78,13 @@ p
 p {
   font: 1em "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
 }
+
+
+//Variable interpolation
+$location: chicago
+$offset: left
+
+.#{$location}
+  #{$offset}: 20px
+
+
