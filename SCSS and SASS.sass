@@ -88,3 +88,10 @@ $offset: left
   #{$offset}: 20px
 
 
+//Detailed Math in SASS
+$grid: 16
+$column: 40px
+$gutter: 20px
+$container: ($column * $grid) + ($gutter * $grid)
+
+width: $container
