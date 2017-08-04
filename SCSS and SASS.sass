@@ -149,3 +149,15 @@ width: 2.5px;
 @import "grid", "typography"
 //Compiled HTML
 //<link href="styles.css" rel="stylesheet">
+
+
+//Using IF statements in SASS
+$shay: awesome
+
+.shay
+  @if $shay == awesome
+    background: #ff7b29
+  @else if $shay == cool
+    background: #0087cc
+  @else
+    background: #333
