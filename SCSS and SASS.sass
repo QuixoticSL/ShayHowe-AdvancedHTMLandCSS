@@ -126,3 +126,19 @@ width: 2.5px;
 .btn:hover {
   color: #9799a7;
 }
+
+
+//Variable arguments in Mixins
+@mixin box-shadow($shadow...)
+  -webkit-box-shadow: $shadow
+  -moz-box-shadow: $shadow
+  box-shadow: $shadow
+
+.shadows
+  +box-shadow(0 1px 2px #cecfd5, inset 0 0 5px #cecfd5)
+//Compiled CSS
+.shadows {
+  -moz-box-shadow: 0 1px 2px #cecfd5, inset 0 0 5px #cecfd5;
+  -webkit-box-shadow: 0 1px 2px #cecfd5, inset 0 0 5px #cecfd5;
+  box-shadow: 0 1px 2px #cecfd5, inset 0 0 5px #cecfd5;
+}
