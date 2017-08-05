@@ -32,3 +32,8 @@ $('img').attr('alt');
 
 // Sets the value of the alt attribute
 $('img').attr('alt', 'Wild kangaroo');
+
+//Attribute manipulation
+$('li:even').addClass('even-item');//Used to add a class to all even items in a list
+$('p').removeClass(); //Used to remove all classes from any paragraphs
+$('abbr').attr('title', 'Hello World'); //Used to set all abbr attributes to Hello World
